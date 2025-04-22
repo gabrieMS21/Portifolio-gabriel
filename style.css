@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  z-index: 0;
+}
+
+body {
+  color: #f2f2f2;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HEADER */
+
+header {
+  background-color: #2a3140;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.322);
+  position: relative;
+}
+
+.header {
+  margin: auto;
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+
+.header img {
+  width: 275px;
+}
+
+.header nav {
+}
+
+.header nav a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 28px;
+  margin-right: 30px;
+  font-weight: 500;
+  font-style: normal;
+  color: #f2f2f2;
+  transition: ease-in-out 1s;
+}
+
+.header nav a:hover {
+  transition: ease-in 0.5s;
+  text-shadow: 0px 0px 5px #f2f2f2;
+}
+
+/* HEADER */
+
+/* APRESENTAÇÃO */
+
+#apresentacao {
+  background-image: linear-gradient(rgb(42, 49, 64), rgba(59, 72, 89, 0.9)),
+    url(imagens/pattern-background.jpg);
+  background-size: 100%;
+  height: 850px;
+}
+.apresentacao{
+    padding-top: 10%;
+    display: flex;
+    font-size: 28px;
+}
+
+.imagem-perfil{
+    width: 300px;
+    height: 400px;
+    background-size: 110%;
+    background-position: right;
+    background-image: url(Imagens/foto-apresentacao.jpg);
+    border-radius: 42% 58% 52% 48% / 61% 32% 68% 39% ;
+    translate: 25%;
+}
+
+
+.apresentacao picture{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.apresentacao > div{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.texto-apresentacao{
+    background-color: #bdbdbd15;
+    padding: 5px 30px;
+    border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 32px;
+}
+
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}    
+
+.links a{
+    background-color: #bdbdbd15;
+    padding: 5px 40px;
+    border-radius: 20px;
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.links a:hover{
+    
+}
+
+
+
+
+
+/* APRESENTAÇÃO */
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
