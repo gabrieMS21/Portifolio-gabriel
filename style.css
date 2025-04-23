@@ -462,3 +462,160 @@ header {
   /* translate: 45%; */
 }
 
+
+
+
+
+
+
+
+
+.tecnologia-container {
+  margin: 0 auto;
+  width: 1400px;
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tecnologia {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: end;
+  padding-bottom: 15%;
+}
+
+.tecnologia span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 24px;
+  width: 80%;
+  height: 70%;
+  padding: 10px 20px;
+  background-color: #bdbdbd15;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 1.2%;
+}
+
+.tecnologia img {
+  width: 350px;
+  /* position: absolute; */
+}
+
+
+.tecnologia-imagens{
+  background-image: url(Imagens/Tecnologias.png);
+  width: 773px;
+  height: 360px;
+  margin-right: 25%;
+  translate: 0% 30%;
+}
+
+
+/* Sobre Mim fim */
+
+
+.header-projetos {
+  background-color: #2a3140;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.322);
+  position: relative;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-projetos h1 {
+  text-align: center;
+  font-family: montSerrat;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 64px;
+}
+
+#projetos {
+  background-image: linear-gradient(rgb(42, 49, 64), rgba(50, 61, 75, 0.945)),
+    url(imagens/pattern-background.jpg);
+  background-size: 100%;
+  height: auto;
+}
+
+
+
+.cards{
+  padding-top: 15%;
+  padding-bottom: 15%;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 5% 2% ;
+  
+}
+
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  height: 550px;
+  background-color: #2A3140;
+  border-radius: 20px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.322);
+}
+
+
+.card h2{
+  font-size: 32px;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-weight: bolder;
+  margin-bottom: 28px;
+}
+
+.card img{
+  border-radius: 20px;
+}
+
+.card button{
+  margin-top: 28px;
+  font-family: "Poppins", sans-serif;
+  background-color: #f2f2f21c;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 28px;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: bolder;
+}
+.card button:hover{
+  cursor: pointer;
+  background-color: #f2f2f234;
+}
+
+.status{
+  translate: 0% -50%;
+}
+.status h3{
+  height: 100%;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #018136;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.322);
+}
