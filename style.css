@@ -531,7 +531,7 @@ header {
   text-align: center;
   width: 550px;
   height: 650px;
-  background-color: #2a3140;
+  background-color: #2A3140;
   border-radius: 20px;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.322);
 }
@@ -546,8 +546,19 @@ header {
 
 .card picture img {
   max-width: 550px;
+  transition: ease-in 0.6s;
   max-height: 350px;
   border-radius: 20px;
+  background-color: #2A3140; 
+  opacity: 0.2; 
+  filter: blur(6px);
+}
+
+.card:hover > picture img{
+  transition: ease-in 0.6s;
+  filter: grayscale(0%) blur(0) brightness(100%);
+  background-color: none; 
+  opacity: 1; 
 }
 
 .descricao {
@@ -616,6 +627,7 @@ header {
   align-items: center;
   text-decoration: none;
   color: #f2f2f2;
+
 }
  .ver a {
   flex-direction: row-reverse;
@@ -626,11 +638,12 @@ header {
 
  .ver a h1,
  .repo a h1 {
-  background-color: #49464628;
+  background-color: rgba(189, 189, 189, 0.1);
   font-size: 22px;
   text-align: center;
   border-radius: 20px;
-  padding: 5px 20px;
+  padding: 2px 20px;
+   transition: ease-in 0.6s;
   
 }
 
@@ -667,11 +680,13 @@ header {
 
 
 .repo a:hover h1{
-  background-color: #4173df;
+  background-color: #2a3140;
+  transition: ease-in 0.6s;
 }
 
 .ver a:hover h1{
-  background-color: #4173df;
+  background-color: #2a3140;
+  transition: ease-in 0.6s;
 }
 
 /* Fim Projetos */
