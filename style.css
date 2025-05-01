@@ -59,7 +59,7 @@ header {
 /* APRESENTAÇÃO */
 
 #apresentacao {
-  background-image: linear-gradient(rgb(42, 49, 64), rgb(50, 61, 75,0.99)),
+  background-image: linear-gradient(rgb(42, 49, 64), rgb(50, 61, 75, 0.99)),
     url(imagens/pattern-background.jpg);
   background-size: 100%;
   height: 850px;
@@ -357,7 +357,6 @@ header {
   flex-direction: row;
   height: 100px;
   width: 600px;
-  
 }
 
 .linkedin a {
@@ -545,13 +544,13 @@ header {
   margin-bottom: 28px;
 }
 
-.card picture img{
+.card picture img {
   max-width: 550px;
   max-height: 350px;
   border-radius: 20px;
 }
 
-.descricao{
+.descricao {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -559,23 +558,23 @@ header {
   width: 90%;
 }
 
-.descricao h2{
+.descricao h2 {
   font-size: 32px;
   font-style: italic;
 }
-.descricao span{
+.descricao span {
   font-size: 20px;
   font-weight: 300;
   font-style: italic;
   width: 80%;
 }
 
-.tec-usadas{
+.tec-usadas {
   display: flex;
   flex-direction: column;
 }
 
-.tec-usadas title{
+.tec-usadas title {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -583,73 +582,98 @@ header {
   font-size: 20px;
   font-style: italic;
 }
-.tec-usadas span{
+.tec-usadas span {
   display: flex;
   flex-direction: row;
   gap: 1%;
   justify-content: center;
   align-items: center;
 }
-.tec-usadas span h4{
+.tec-usadas span h4 {
   background-color: #305ec44d;
   padding: 5px 10px;
   border-radius: 20px;
 }
 
-
-.links{
+.links-projeto {
+  padding-top: 5%;
   flex-direction: row;
-}
-
-.ver{
-  flex-direction: row-reverse;
-}
-
-.ver ,
-.repo {
-  border-radius: 20px;
-}
-
-.ver a,
-.repo a{
   display: flex;
+  flex-direction: row;
+  gap: 25px;
 }
 
-.ver a{
+ .ver {
   flex-direction: row-reverse;
 }
+
+
+ .ver a,
+ .repo a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #f2f2f2;
+}
+ .ver a {
+  flex-direction: row-reverse;
+}
+
+
+
+
+ .ver a h1,
+ .repo a h1 {
+  background-color: #49464628;
+  font-size: 22px;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 20px;
   
-
-
-
-.repo a {
-  display: flex;
-  flex-direction: row;
 }
 
 
-.ver img,
-.repo img{
+.ver a h1{
+  padding-left: 40px;
+}
+
+.repo a h1{
+  padding-right: 40px;
+}
+
+.ver a img{
+  translate: 60%;
+}
+.repo a img{
+  translate: -60%;
+}
+
+
+ .ver a img,
+ .repo a img {
   width: 50px;
+  padding: 0;
+ 
+}
+/* 
+ .ver a img {
+  translate: 80%;
+}
+ .repo a img {
+  translate: -80%;
+} */
+
+
+.repo a:hover h1{
+  background-color: #4173df;
 }
 
-.ver:hover,
-.repo:hover {
-  cursor: pointer;
-  background-color: #f2f2f234;
+.ver a:hover h1{
+  background-color: #4173df;
 }
 
-.status {
-  translate: 0% -50%;
-}
-.status h3 {
-  height: 100%;
-  width: 100%;
-  padding: 10px 20px;
-  border-radius: 20px;
-  background-color: #306831;
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.322);
-}
 /* Fim Projetos */
 
 /* Contato */
@@ -724,10 +748,9 @@ header {
   font-size: 26px;
 }
 input::placeholder,
-textarea::placeholder{
+textarea::placeholder {
   color: #2327314d;
 }
-
 
 .contato input,
 textarea {
@@ -762,7 +785,7 @@ textarea {
   transition: ease-in 0.6s;
 }
 
-.contato button:hover{
+.contato button:hover {
   cursor: pointer;
   background-color: #232731;
   transition: ease-in 0.6s;
@@ -781,7 +804,6 @@ textarea {
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
- 
 }
 
 .github-contato,
@@ -822,7 +844,7 @@ textarea {
   color: #f2f2f2;
   font-size: 36px;
   font-style: italic;
-  background-color: rgba(189, 189, 189, 0.10);
+  background-color: rgba(189, 189, 189, 0.1);
   padding: 5px 20px;
   border-radius: 20px;
   padding-left: 40px;
@@ -834,13 +856,11 @@ textarea {
 .instagram-contato a:hover h1,
 .celular-contato a:hover h1,
 .email-contato a:hover h1 {
-  background-color: #2a3140; 
+  background-color: #2a3140;
   transition: ease-in 0.6s;
 }
 
-
-
-.email-retratil{
+.email-retratil {
   position: fixed;
   display: flex;
   align-items: center;
@@ -853,7 +873,7 @@ textarea {
   border-radius: 20px;
   translate: 235% -187%;
 }
-.celular-retratil{
+.celular-retratil {
   position: fixed;
   display: flex;
   align-items: center;
