@@ -927,12 +927,16 @@ footer {
   margin: auto;
   width: 1400px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  flex-direction: column;
   align-items: center;
   height: 250px;
+  font-weight: 100;
+  color: #f2f2f2;
 }
-
+.footer img{
+  width: 300px;
+}
 /* tablet */
 /* MODO TABLET */
 /* TABLET */
@@ -2325,7 +2329,6 @@ footer{
   .email-contato {
     width: 30%;
     z-index: 1000;
-    translate: -15%;
   }
 
   .github-contato a,
