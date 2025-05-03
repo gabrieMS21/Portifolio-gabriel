@@ -18,7 +18,7 @@ O design do projeto foi planejado no Figma.
 Confira o protótipo completo ou uma prévia em imagem:
 
 - [🔗 Link para o Figma](https://www.figma.com/design/3nNy7qzs1UFtSSbavYv4pE/Projeto-portif%C3%B3lio?node-id=54-153)
-- ![Prévia do design](./caminho/para/sua/imagem.png)
+- ![Prévia do design](./Imagens/figma-design.png)
 
 ---
 
