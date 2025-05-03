@@ -1,48 +1,69 @@
-# Portifólio Gabriel
+# 🚀 Portfólio Gabriel
 
-Projeto desenvolvido por mim como portfólio pessoal.  
-Este projeto tem como objetivo apresentar meus trabalhos, habilidades e trajetória como desenvolvedor.
+Bem-vindo ao meu portfólio pessoal! 🌟  
+Este projeto foi criado para apresentar meus trabalhos, habilidades e trajetória como desenvolvedor web.
 
-O site conta com:
-- Estrutura responsiva usando HTML e CSS puro;
-- Sessões para apresentar projetos, habilidades, sobre mim e contato;
-- Estilo visual minimalista e feito manualmente (não usei IA).
+✨ **Destaques do projeto:**
+- Layout responsivo com HTML5 e CSS3
+- Design minimalista e totalmente feito à mão (sem IA)
+- Seções: Sobre mim, Projetos, Habilidades e Contato
 
-## Índice
+🌍 **Acesse o site:** [Clique aqui para visitar](https://vercel.com/gabriel-mendes-santos-projects/portifolio)
+
+---
+
+## 📋 Índice
 
 - [Visão Geral](#visão-geral)
 - [Instalação](#instalação)
-- [Como usar](#como-usar)
+- [Como Usar](#como-usar)
 - [Tecnologias](#tecnologias)
 - [Autor](#autor)
 
-## Visão Geral
+---
 
-O portfólio permite:
-- Apresentar meus projetos e trabalhos;
-- Mostrar minhas habilidades e tecnologias dominadas;
-- Facilitar o contato com recrutadores ou interessados.
+## 💡 Visão Geral
 
-Foi desenvolvido como prática de HTML e CSS e servirá como vitrine para meus projetos futuros.
+Este portfólio foi criado para:
+- Apresentar meus principais projetos e trabalhos;
+- Destacar minhas habilidades técnicas e criativas;
+- Facilitar o contato com recrutadores, colegas e parceiros.
 
-## Instalação
+Ele é um projeto em constante evolução, e novos trabalhos serão adicionados ao longo da minha jornada como desenvolvedor!
+
+---
+
+## ⚙️ Instalação
 
 1. Clone o repositório:
 
 2. Abra o arquivo `index.html` no navegador.
 
-## Como usar
+---
 
-- Navegue pelas sessões do site: Sobre, Projetos, Habilidades e Contato;
-- Clique nos links de projetos para visualizar mais detalhes (se configurado);
-- Use a seção de contato para enviar mensagens (caso esteja habilitada).
+## 💻 Como Usar
 
-## Tecnologias
+- Navegue pelas sessões: Sobre, Projetos, Habilidades e Contato;
+- Explore os links de projetos para ver detalhes (se disponíveis);
+- Use a seção de contato para falar diretamente comigo!
+
+---
+
+## 🛠️ Tecnologias
 
 - HTML5
-- CSS3 (estilizado manualmente, sem IA)
+- CSS3 (feito manualmente, sem ferramentas automáticas ou IA)
 
-## Autor
+---
+
+## 👨‍💻 Autor
 
 Gabriel Mendes Santos  
-[GitHub](https://github.com/gabrieMS21)
+[🌎 GitHub](https://github.com/gabrieMS21)
+
+---
+
+## 📚 Fontes consultadas
+
+- SOFTWARE CARPENTRY. Writing Good README Files. Disponível em: <https://software-carpentry.org/blog/2016/06/readme-files.html>. Acesso em: 03 maio 2025.  
+- GITHUB DOCS. About READMEs. Disponível em: <https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes>. Acesso em: 03 maio 2025.
