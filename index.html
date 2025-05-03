@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=], initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,6 +17,11 @@
     <header>
       <div class="header">
         <img src="Imagens/logo.jpg" alt="Logo" />
+        <div class="menu-hamburguer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
         <nav>
           <a href="#apresentacao">Inicio</a>
           <a href="#sobre-mim">Sobre</a>
@@ -88,8 +93,7 @@
           <span
             ><h2>PRÁTICA</h2>
             Já venho praticando com HTML, CSS, JavaScript, SQL, Git e GitHub, e
-            adoro colocar a mão na massa — seja criando interfaces ou dando vida
-            a ideias com Arduino e ESP32, sempre pensando em soluções
+            adoro colocar a mão na massa — seja criando interfaces, sempre pensando em soluções
             inteligentes.
           </span>
         </div>
@@ -109,8 +113,8 @@
       </div>
       <div class="social-container">
         <div class="social">
-          <picture
-            ><img src="Imagens/Avatar-social.png" alt="Avatar-Saudacao"
+          <picture>
+            <img src="Imagens/Avatar-social.png" alt="Avatar-Saudacao"
           /></picture>
           <span>
             <h2>SOCIAL</h2>
@@ -137,7 +141,9 @@
       </div>
       <!-- Tecnologias -->
       <div class="tecnologia-container">
-        <div class="tecnologia-imagens"></div>
+        <div class="tecnologia-imagens">
+          <img src="Imagens/Tecnologias.png" alt="">
+        </div>
         <div class="tecnologia">
           <picture
             ><img src="Imagens/Avatar-tecnologias.png" alt="Avatar-Saudacao"
@@ -158,6 +164,81 @@
       </div>
       <div class="projeto container">
         <div class="cards">
+          <div class="card">
+            <picture>
+              <img src="Imagens/zelda.gif" alt="" />
+            </picture>
+            <div class="descricao">
+              <h2>
+                Clone do site <br />
+                Zelda Tears Of The Kingdom
+              </h2>
+              <span>
+                Estudo De Construção e Design em cima do site oficial do jogo
+                zelda Tears Of The Kingdom.              </span>
+            </div>
+            <div class="tec-usadas">
+              <title>
+                TECNOLOGIAS USADAS
+              </title>
+              <span>
+                <h4>HTML</h4>
+                <h4>CSS</h4>
+              </span>
+            </div>
+            <div class="links-projeto">
+              <div class="ver">
+                <a href="https://zelda-project-jet.vercel.app/" target="_blank">
+                  <h1>VER PROJETO</h1>
+                  <img src="Imagens/binoculos-logo.png" alt="Github-logo"/>
+                </a>
+              </div>
+              <div class="repo">
+                <a href="https://github.com/gabrieMS21/zelda_Project" target="_blank">
+                  <h1>REPOSITÓRIO</h1>
+                  <img src="Imagens/github-logo.png" alt="binoculo-logo"/>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <picture>
+              <img src="Imagens/agenda.gif" alt="" />
+            </picture>
+            <div class="descricao">
+              <h2>
+                Projeto Agenda <br>
+                Agenda De contatos
+              </h2>
+              <span>
+                Estudo De Construção e Design em cima do site oficial do jogo
+                zelda Tears Of The Kingdom.              </span>
+            </div>
+            <div class="tec-usadas">
+              <title>
+                TECNOLOGIAS USADAS
+              </title>
+              <span>
+                <h4>HTML</h4>
+                <h4>CSS</h4>
+                <h4>JQUERY</h4>
+              </span>
+            </div>
+            <div class="links-projeto">
+              <div class="ver">
+                <a href="https://agenda-ebac-green.vercel.app/" target="_blank">
+                  <h1>VER PROJETO</h1>
+                  <img src="Imagens/binoculos-logo.png" alt="Github-logo"/>
+                </a>
+              </div>
+              <div class="repo">
+                <a href="https://github.com/gabrieMS21/Agenda_ebac" target="_blank">
+                  <h1>REPOSITÓRIO</h1>
+                  <img src="Imagens/github-logo.png" alt="binoculo-logo"/>
+                </a>
+              </div>
+            </div>
+          </div>
           <div class="card">
             <picture>
               <img src="Imagens/zelda.gif" alt="" />
@@ -283,7 +364,7 @@
     <footer>
       <div class="footer">
         <img src="Imagens/logo.jpg" alt="Logo" />
-        <h4>Desenvolvido por Gabriel Mendes Santos</h4>
+        <p>&copy; 2025 Gabriel Mendes Santos. Todos os direitos reservados.</p>
       </div>
     </footer>
   </body>
