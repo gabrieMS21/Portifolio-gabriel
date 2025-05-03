@@ -12,22 +12,13 @@ Este projeto foi criado para apresentar meus trabalhos, habilidades e trajetóri
 
 ---
 
-## 🎨 Design
-
-O design do projeto foi planejado no Figma.  
-Confira o protótipo completo ou uma prévia em imagem:
-
-- [🔗 Link para o Figma](https://www.figma.com/design/3nNy7qzs1UFtSSbavYv4pE/Projeto-portif%C3%B3lio?node-id=54-153)
-- ![Prévia do design](./Imagens/figma-design.png)
-
----
-
 ## 📋 Índice
 
 - [Visão Geral](#visão-geral)
 - [Instalação](#instalação)
 - [Como Usar](#como-usar)
 - [Tecnologias](#tecnologias)
+- [Design](#Design)
 - [Autor](#autor)
 
 ---
@@ -65,6 +56,18 @@ Ele é um projeto em constante evolução, e novos trabalhos serão adicionados 
 - CSS3 (feito manualmente, sem ferramentas automáticas ou IA)
 
 ---
+
+## 🎨 Design
+
+O design do projeto foi planejado no Figma.  
+Confira o protótipo completo e uma prévia em imagem:
+
+- [🔗 Link para o Figma](https://www.figma.com/design/3nNy7qzs1UFtSSbavYv4pE/Projeto-portif%C3%B3lio?node-id=54-153)
+---
+- ![Prévia do design](./Imagens/figma-design.png)
+
+---
+
 
 ## 👨‍💻 Autor
 
