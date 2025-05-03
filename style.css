@@ -728,7 +728,7 @@ header {
   background-image: linear-gradient(rgb(42, 49, 64), rgba(50, 61, 75, 0.945)),
     url(imagens/pattern-background.jpg);
   background-size: 100%;
-  height: 1800px;
+  height: auto;
   /* height: auto; */
 }
 
@@ -741,7 +741,7 @@ header {
 }
 
 .contato img {
-  width: 350px;
+  width: 300px;
 }
 
 .contato form {
@@ -749,8 +749,8 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 800px;
-  height: 670px;
+  width: 750px;
+  height: 650px;
   background-color: #bdbdbd15;
   border-radius: 20px;
 }
@@ -823,17 +823,18 @@ textarea {
 
 .container-buttons {
   margin: 0 auto;
-  width: 1100px;
+  width: 50%;
 }
 
 .butoes {
-  padding-bottom: 5%;
+  padding-bottom: 15%;
   padding-top: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
+ translate: -4%;
 }
 
 .github-contato,
@@ -862,7 +863,7 @@ textarea {
 .instagram-contato a img,
 .celular-contato a img,
 .email-contato a img {
-  width: 90px;
+  width: 70px;
   translate: 30%;
 }
 
@@ -872,7 +873,7 @@ textarea {
 .celular-contato a h1,
 .email-contato a h1 {
   color: #f2f2f2;
-  font-size: 36px;
+  font-size: 26px;
   font-style: italic;
   background-color: rgba(189, 189, 189, 0.1);
   padding: 5px 20px;
