@@ -2904,14 +2904,14 @@ footer {
     place-items: center;
   }
   .cards {
-    width: 90%;
+    width: 100%;
     grid-template-columns: 1fr;
     place-items: center;
     gap: 60px;
   }
 
   .card {
-    width: 70%;
+    width: 95%;
     height: auto;
     padding-bottom: 3%;
   }
@@ -2942,27 +2942,18 @@ footer {
   }
 
   .links-projeto {
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    padding-bottom: 5%;
-
   }
 
-  .ver{
-    margin-bottom: 3%;
-  }
 
   .ver a h1,
   .repo a h1 {
     font-size: 14px;
-    padding: 3px 15px;
+    padding: 3px 10px;
   }
 
-  .repo a{
-    flex-direction: row-reverse;
-  }
 
   .ver a img,
   .repo a img {
@@ -2970,17 +2961,17 @@ footer {
   }
 
   .ver a h1 {
-    padding-left: 25px;
+    padding-left: 20px;
   }
   .repo a h1 {
-    padding-left: 25px;
+    padding-right: 20px;
   }
 
   .ver a img {
     translate: 50%;
   }
   .repo a img {
-    translate: 50%;
+    translate: -50%;
   }
 
 }
