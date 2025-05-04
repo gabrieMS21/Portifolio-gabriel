@@ -212,14 +212,14 @@ header {
 /* Formação */
 .formacao-container {
   margin: 0 auto;
-  max-width: 1400px;
-  padding-top: 3%;
+  width: 1400px;
+  padding-top: 5%;
 }
 
 .formacao {
   padding-top: 5%;
   margin: 0 auto;
-  max-width: 60%;
+  width: 60%;
   display: flex;
   justify-content: center;
   filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.226));
@@ -2605,7 +2605,7 @@ footer {
   .formacao {
     padding-top: 5%;
     margin: 0 auto;
-    width: 60%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2653,7 +2653,7 @@ footer {
     font-weight: bold;
     font-style: italic;
     font-size: 14px;
-    width: 60%;
+    width: 80%;
     padding: 10px 20px;
     background-color: #bdbdbd15;
     text-align: center;
@@ -2688,7 +2688,7 @@ footer {
     font-weight: bold;
     font-style: italic;
     font-size: 14px;
-    width: 60%;
+    width: 80%;
     padding: 10px 20px;
     background-color: #bdbdbd15;
     text-align: center;
@@ -2875,5 +2875,112 @@ footer {
   }
   
   /* Sobre Mim fim */
+  /* Projetos */
+
+  .header-projetos {
+    background-color: #2a3140;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.322);
+    position: relative;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header-projetos h1 {
+    text-align: center;
+    font-family: montSerrat;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 28px;
+  }
+  
+
+  #projetos {
+    background-size: cover;
+  }
+
+  .projeto {
+    place-items: center;
+  }
+  .cards {
+    width: 90%;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 60px;
+  }
+
+  .card {
+    width: 70%;
+    height: auto;
+    padding-bottom: 3%;
+  }
+
+  .card h2 {
+    font-size: 24px;
+  }
+
+  .card picture img {
+    width: 100%;
+  }
+
+  .descricao h2 {
+    font-size: 22px;
+  }
+
+  .descricao span {
+    font-size: 16px;
+  }
+
+  .tec-usadas title {
+    font-size: 16px;
+  }
+
+  .tec-usadas span h4 {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+
+  .links-projeto {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 5%;
+
+  }
+
+  .ver{
+    margin-bottom: 3%;
+  }
+
+  .ver a h1,
+  .repo a h1 {
+    font-size: 14px;
+    padding: 3px 15px;
+  }
+
+  .repo a{
+    flex-direction: row-reverse;
+  }
+
+  .ver a img,
+  .repo a img {
+    width: 30px;
+  }
+
+  .ver a h1 {
+    padding-left: 25px;
+  }
+  .repo a h1 {
+    padding-left: 25px;
+  }
+
+  .ver a img {
+    translate: 50%;
+  }
+  .repo a img {
+    translate: 50%;
+  }
 
 }
