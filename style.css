@@ -2481,17 +2481,17 @@ footer {
     padding-top: 20%;
     padding-bottom: 20%;
     display: flex;
-    font-size: 28px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .imagem-perfil {
-    width: 120px;
-    height: 170px;
+    width: 200px;
+    height: 250px;
     background-size: 115%;
     background-position: right;
     background-image: url(Imagens/foto-apresentacao.jpg);
     border-radius: 42% 58% 52% 48% / 61% 32% 68% 39%;
-    translate: -4%;
   }
 
   .apresentacao picture {
@@ -2503,32 +2503,35 @@ footer {
     margin: auto;
     display: flex;
     flex-direction: column;
-    width: 65%;
+    width: 90%;
   }
 
   .texto-apresentacao {
     background-color: #bdbdbd15;
-    padding: 5px 30px;
+    padding: 5px 15px;
     border-radius: 20px;
     margin-top: 5%;
     margin-bottom: 5%;
-    text-align: center;
-    font-size: 12px;
-    font-style: italic;
+  }
+  
+  .texto-apresentacao span{
+    font-size: 18px;
+   
   }
 
   .links {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    gap: 1%;
   }
 
   .links a {
     background-color: #bdbdbd15;
     border-radius: 20px;
     color: #f2f2f2;
-    padding: 5px 8px;
-    font-size: 11px;
+    padding: 7px 6px;
+    font-size: 18px;
     text-decoration: none;
     transition: ease-in 1s;
   }
@@ -2830,7 +2833,7 @@ footer {
   
   .tecnologia-container {
     margin: 0 auto;
-    width: 1400px;
+    width: 100%;
     padding-top: 2%;
     display: flex;
     flex-direction: column;
@@ -2840,7 +2843,7 @@ footer {
   
   .tecnologia {
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
@@ -2853,10 +2856,10 @@ footer {
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
     font-style: italic;
-    font-size: 14px;
+    font-size: 11px;
     width: 80%;
     height: 70%;
-    padding: 10px 20px;
+    padding: 5px 10px;
     background-color: #bdbdbd15;
     border-radius: 20px;
     display: flex;
@@ -2867,7 +2870,7 @@ footer {
   }
   
   .tecnologia img {
-    width: 350px;
+    width: 150px;
     /* position: absolute; */
   }
   
