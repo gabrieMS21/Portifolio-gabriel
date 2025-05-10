@@ -10,6 +10,8 @@ html {
   z-index: 0;
 }
 
+
+
 body {
   color: #f2f2f2;
   font-family: "Poppins", sans-serif;
@@ -1772,7 +1774,6 @@ footer {
     width: 35%;
   }
 }
-
 @media screen and (max-width: 480px) {
   * {
     z-index: 0;
@@ -2508,7 +2509,6 @@ footer {
     width: 35%;
   }
 }
-
 @media screen and (max-width: 390px) {
   .header nav {
     display: none;

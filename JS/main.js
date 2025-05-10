@@ -1,4 +1,4 @@
-// Menu toggle functionality
+
 const menuHamburguer = document.querySelector(".menu-hamburguer");
 const headerLinks = document.querySelector(".header-links");
 let isMenuOpen = false;
@@ -22,7 +22,6 @@ menuHamburguer.addEventListener("click", () => {
   }
 });
 
-// Close menu when clicking outside
 document.addEventListener("click", (event) => {
   if (
     isMenuOpen &&
@@ -34,7 +33,7 @@ document.addEventListener("click", (event) => {
   }
 });
 
-// Close menu when clicking on a link
+
 const menuLinks = document.querySelectorAll(".header-links a");
 menuLinks.forEach((link) => {
   link.addEventListener("click", () => {
