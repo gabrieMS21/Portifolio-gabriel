@@ -1,9 +1,15 @@
-
 const menuHamburguer = document.querySelector(".menu-hamburguer");
 const headerLinks = document.querySelector(".header-links");
 let isMenuOpen = false;
 
+// Function to check if we're on mobile
+function isMobile() {
+  return window.innerWidth <= 768; // Adjust this value based on your mobile breakpoint
+}
+
 menuHamburguer.addEventListener("click", () => {
+  if (!isMobile()) return; // Only apply mobile menu behavior on mobile
+
   isMenuOpen = !isMenuOpen;
 
   if (isMenuOpen) {
@@ -23,6 +29,8 @@ menuHamburguer.addEventListener("click", () => {
 });
 
 document.addEventListener("click", (event) => {
+  if (!isMobile()) return; // Only apply mobile menu behavior on mobile
+
   if (
     isMenuOpen &&
     !event.target.closest(".header-links") &&
@@ -33,11 +41,29 @@ document.addEventListener("click", (event) => {
   }
 });
 
-
 const menuLinks = document.querySelectorAll(".header-links a");
 menuLinks.forEach((link) => {
   link.addEventListener("click", () => {
+    if (!isMobile()) return; // Only apply mobile menu behavior on mobile
     isMenuOpen = false;
     headerLinks.style.display = "none";
   });
+});
+
+// Handle window resize
+window.addEventListener("resize", () => {
+  if (!isMobile()) {
+    // Reset mobile menu styles when switching to desktop
+    headerLinks.style.display = "";
+    headerLinks.style.flexDirection = "";
+    headerLinks.style.position = "";
+    headerLinks.style.top = "";
+    headerLinks.style.left = "";
+    headerLinks.style.width = "";
+    headerLinks.style.backgroundColor = "";
+    headerLinks.style.padding = "";
+    headerLinks.style.boxShadow = "";
+    headerLinks.style.zIndex = "";
+    isMenuOpen = false;
+  }
 });
