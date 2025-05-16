@@ -580,7 +580,7 @@ header {
   justify-content: start;
   align-items: center;
   text-align: center;
-  width: 100%;
+  width: 550px;
   background-color: #2a3140;
   border-radius: 20px;
   box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.322);
@@ -610,6 +610,17 @@ header {
   filter: grayscale(0%) blur(0) brightness(100%);
   background-color: none;
   opacity: 1;
+}
+
+#backend{
+  background-color: #082161;
+}
+#api{
+  background-color: #a87e0a;
+}
+
+#banco{
+  background-color: #296108;
 }
 
 .descricao {
